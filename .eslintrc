@@ -9,7 +9,8 @@
   },
   "rules": {
     "no-console": "warn",
-    "no-debugger": "error"
+    "no-debugger": "error",
+    "indent": ["warn", 2]
   },
   "overrides": [
     {

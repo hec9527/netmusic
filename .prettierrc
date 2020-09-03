@@ -4,6 +4,8 @@
   "useTabs": false,
   "endOfLine": "lf",
   "printWidth": 120,
-  "vueIndentScriptAndStyle": true,
-  "vuetabInd": false
+  "vuetabInd": false,
+  "tabWidth": 2,
+  "tabSize": 2,
+  "tab": 2
 }

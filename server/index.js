@@ -52,7 +52,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(fileUpload());
 
 // static
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'static')));
 
 // cache
 app.use(cache('2 minutes', (req, res) => res.statusCode === 200));

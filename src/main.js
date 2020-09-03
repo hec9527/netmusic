@@ -10,3 +10,5 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app');
+
+fetch('http://localhost:8080/api/search?keywords="海阔天空"');
