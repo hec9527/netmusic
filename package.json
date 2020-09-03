@@ -5,14 +5,15 @@
   "main": "./src/main.js",
   "scripts": {
     "dev": "run-p serve start",
-    "serve": "nodemon ./server/index.js",
+    "serve": "node ./server/index.js",
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "init": "npm i -g nodemon pm2 rimraf npm-run-all && npm i",
-    "preinstall": "rimraf node_modules",
-    "prebuild": "npm run test:unit"
+    "init": "npm i -g rimraf npm-run-all && npm i && cd server && npm i && cd ..",
+    "clear": "rimraf node_modules",
+    "prebuild": "npm run test:unit && npm run clear",
+    "reinstall": "npm run clear && npm i"
   },
   "dependencies": {
     "core-js": "^3.6.5",
