@@ -1,3 +1,3 @@
 export default {
-  host: process.env.NODE_ENV === 'production' ? '' : 'localhost'
+  baseUrl: process.env.NODE_ENV === 'production' ? '' : '/api' // 开发模式启动代理
 };

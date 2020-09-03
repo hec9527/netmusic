@@ -11,4 +11,8 @@ new Vue({
   render: h => h(App)
 }).$mount('#app');
 
-fetch('http://localhost:8080/api/search?keywords="海阔天空"');
+// 跨域代理测试
+// import API from '@/api/index';
+// const url = 'http://localhost:8080/api/search?keywords="海阔天空"';
+// fetch(url);
+// API.get(url);
