@@ -10,9 +10,9 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "preinstall": "npm i -g nodemon pm2 rimraf npm-run-all",
-    "prebuild": "npm run test:unit",
-    "reinstall": "rimraf node_modules && npm i"
+    "init": "npm i -g nodemon pm2 rimraf npm-run-all && npm i",
+    "preinstall": "rimraf node_modules",
+    "prebuild": "npm run test:unit"
   },
   "dependencies": {
     "core-js": "^3.6.5",
