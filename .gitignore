@@ -1,5 +1,4 @@
 .DS_Store
-<<<<<<< HEAD
 node_modules
 /dist
 
@@ -22,8 +21,3 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-=======
-*.css
-node_modules
-dist
->>>>>>> 6a5710d... 初始化仓库
