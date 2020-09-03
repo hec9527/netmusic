@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm init
+npm run init
 ```
 
 ### Compiles and hot-reloads for development
